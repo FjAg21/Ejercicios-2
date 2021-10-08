@@ -6,7 +6,13 @@
 //   Si N = 8, devuelve la suma 2 + 4 + 6 + 8
 
 const N = 6;
+let  resultado = 0
 
 // Aquí tu programa
+for(let i = 0; i <= N; i++){
+    if( i % 2 == 0 ){
+        resultado += i;
+    }
+}
 
 console.log("El resultado de sumar los pares hasta " + N + " es " + resultado);
